@@ -131,6 +131,17 @@ p {
     font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 28px;
+}
+
+.closer2{
+    text-align: center;
+    color: #007eda;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-top: 50px;
 }
 
 
@@ -145,18 +156,62 @@ p {
 
 .box {
     box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
-    width: 400px;
-    padding: 25px 10px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+    color: #000000!important;
+    padding-top: 30px;
+    padding-right: 45px;
+    width: 280px;
+    height: 230px;
+    padding-left: 30px;
+
 }
 
-.box>ul>li {
-    list-style: disc;
-    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-
+.item{
+    padding-left: 5px;
+    list-style-type: disc;
+    font-weight: 520;
 }
 
-.list2 {
+
+
+
+.box > h6{
     color: #E09900;
     line-height: 1em;
     font-weight: bold;
+}
+
+.fa-lightbulb , .fa-bullseye , .fa-circle-user {
+    font-size: 50px;
+    color: #E09900;
+}
+
+.parent-4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  
+}
+
+.box-1{
+  width: 350px;
+  padding: 30px;
+
+}
+
+h4{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 22px;
+    color: #000000!important;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+
+.para{
+    font-weight: 500px;
+    text-transform: capitalize;
 }

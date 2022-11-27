@@ -24,44 +24,66 @@ const Home = () => {
         <h5 className='closer'>TAKE A CLOSER LOOK AT IT COMPONENTS WE MANAGE</h5>
         <div className='parent-3'>
           <div className='box'>
-            <ul>
-            <li className='list2'>Hardware & Software</li>
+            <h6>Hardware and Software</h6>
+            <span className='item'>Desktop</span><br />
+            <span className='item'>Laptop</span><br />
+            <span className='item'>Mobile Devices</span><br />
+            <span className='item'>IoT Devices</span><br />
 
-              <li>Desktops</li>
-              <li>Laptops</li>
-              <li>Mobile devices</li>
-              <li>IoT devices</li>
-              <li>Custom Applications</li>
-              <li>Databases</li>
+            <span className='item'>Customs Application</span><br />
+            <span className='item'>Databases</span><br />
 
-            </ul>
           </div>
           <div className='box'>
-            <ul>
-            <li className='list2'>Hardware & Software</li>
+            <h6>Networks</h6>
+            <span className='item'>Switches</span><br />
+            <span className='item'>Routers</span><br />
+            <span className='item'>Wireless access points</span><br />
+            <span className='item'>Modems</span><br />
 
-              <li>Desktops</li>
-              <li>Laptops</li>
-              <li>Mobile devices</li>
-              <li>IoT devices</li>
-              <li>Custom Applications</li>
-              <li>Databases</li>
-
-            </ul>
+            <span className='item'>Hubs</span><br />
+            <span className='item'>Servers</span><br />
           </div>
           <div className='box'>
-            <ul>
-            <li className='list2'>Hardware & Software</li>
-              <li>Desktops</li>
-              <li>Laptops</li>
-              <li>Mobile devices</li>
-              <li>IoT devices</li>
-              <li>Custom Applications</li>
-              <li>Databases</li>
+            <h6>Security</h6>
+            <span className='item'>Desktop</span><br />
+            <span className='item'>Laptop</span><br />
+            <span className='item'>Mobile Devices</span><br />
+            <span className='item'>IoT Devices</span><br />
 
-            </ul>
+            <span className='item'>Customs Application</span><br />
+            <span className='item'>Databases</span><br />
           </div>
         </div>
+      </div>
+
+
+
+      <div>
+        <h5 className='closer2'>THE BEST SOLUTIONS FOR OUR CLIENTS</h5>
+        <div className='parent-4'>
+          <div className='box-1'>
+            <span><i class="fa-solid fa-lightbulb"></i></span>
+            <h4>Customer Satisfaction</h4>
+            <p className='para'>Our first priority is Our Customer’s Satisfaction. We feel that success gets when customers are satisfied. Customer’s satisfaction is one important factor at TechMatter.</p>
+          </div>
+          <div className='box-1'>
+            <span><i class="fa-solid fa-bullseye"></i></span>
+            <h4>Innovation & Creativity</h4>
+            <p className='para'>Tech Matter Guarantee to provide you the Solutions that are Out of the box, Unique, Creative, and Productive. Our skilled and talented team is at your service.</p>
+          </div>
+          <div className='box-1'>
+            <span><i class="fa-solid fa-circle-user"></i></span>
+            <h4>Our Personnel</h4>
+            <p className='para'>Our talented team are our key assets. With their exceptional creative abilities, you will have what you demand. Improve your business with speed and efficiency.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div>
+        
       </div>
     </div>
   )
