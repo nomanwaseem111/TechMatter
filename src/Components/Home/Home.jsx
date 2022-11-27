@@ -82,9 +82,66 @@ const Home = () => {
 
 
 
+
       <div>
-        
+        <span className='closer4'>TECH MATTER PROVIDING YOU BEST SERVICES</span>
+        <div className='parent-5'>
+          <div className='child-5'>
+            <span><i class="fa-solid fa-desktop"></i></span><br /><br />
+            <span className='c-5'>Managed IT Services</span>
+            <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
+            <button className='b-5'>Explore</button>
+          </div>
+          <div className='child-5'>
+            <span><i class="fa-brands fa-windows"></i></span><br /><br />
+            <span className='c-5'>Software Development</span>
+            <p className='p-5'>We deliver custom software solutions for your unique requirements; our software is usually more in-depth and tailored to a client’s specific needs.</p>
+            <button className='b-5'>Explore</button>
+
+          </div>
+          <div className='child-5'>
+            <span><i class="fa-solid fa-arrows-spin"></i></span><br /><br />
+            <span className='c-5'>Revenue Cycle Management</span>
+            <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
+            <button className='b-5'>Explore</button>
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div className='parent-5'>
+          <div className='child-5'>
+            <span><i class="fa-solid fa-desktop"></i></span><br /><br />
+            <span className='c-5'>Managed IT Services</span>
+            <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
+            <button className='b-5'>Explore</button>
+          </div>
+          <div className='child-5'>
+            <span><i class="fa-brands fa-windows"></i></span><br /><br />
+            <span className='c-5'>Software Development</span>
+            <p className='p-5'>We deliver custom software solutions for your unique requirements; our software is usually more in-depth and tailored to a client’s specific needs.</p>
+            <button className='b-5'>Explore</button>
+
+          </div>
+          <div className='child-5'>
+            <span><i class="fa-solid fa-arrows-spin"></i></span><br /><br />
+            <span className='c-5'>Revenue Cycle Management</span>
+            <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
+            <button className='b-5'>Explore</button>
+
+          </div>
+        </div>
+
       </div>
+
+
+
     </div>
   )
 }
