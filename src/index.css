@@ -285,3 +285,245 @@ h4 {
   font-weight: bold;
 }
 
+.p-6{
+    text-align: center;
+    color: #007eda;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.parent-6{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.read-more{
+    text-decoration: none;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
+    font-size: 19px;
+    line-height: 2.1em;
+}
+
+.line{
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 100px;
+}
+
+.parent-7{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.adjust{
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.review{
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0C71C3!important;
+    line-height: 1.5em;
+}
+
+.feed{
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 19px;
+    max-width: 160px;
+    display: inline-block;
+    font-weight: 520;
+    color: #000000;
+}
+
+.review-on{
+    color: #6a797e;
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+.fa-star{
+    color: orangered;
+}
+
+.clutch{
+    height: 23px;
+    width: 82px;
+    font-family: Roboto,sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.footer-background{
+    background-color: #000000;
+    margin-top: 100px;
+    padding: 100px 0px;
+}
+
+.contact{
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF!important;
+    line-height: 1.5em;
+   
+}
+
+.label-name{
+    color: #ffffff;
+    
+}
+
+.input_field{
+    margin-bottom: 20px;
+    width: 300px;
+    background-color:  #eee;
+    padding: 10px 20px;
+    color: rgb(3, 3, 3);
+    border: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-child1{
+    max-width: 400px;
+
+}
+
+.footer-child2{
+    max-width: 400px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.footer-child3{
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 350px;
+
+}
+
+.submitBtn{
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.contact-details{
+    font-family: 'DM Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #FFFFFF!important;
+    line-height: 1.6em;
+}
+
+.address_para{
+    color: #eee;
+    font-weight:700;
+    padding-top: 10px;
+
+}
+
+.num{
+    color: #eee;
+
+}
+
+#send{
+    color: #eee;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 15px;
+
+}
+
+
+.fa-facebook{
+    color: #007eda;
+    margin-right: 10px;
+   
+}
+
+.fa-square-twitter{
+    color: #4285f4;
+    margin-right: 10px;
+
+}
+
+.fa-square-instagram{
+    color: rgb(230, 97, 119);
+    margin-right: 10px;
+
+}
+
+.fa-linkedin{
+    color:    #0a66c2;
+
+}
+
+.parent-10{
+    padding-top: 20px;
+}
+.quick-links{
+    margin-top: 50px;
+    color: #eee;
+}
+
+.page-link{
+    text-decoration: none;
+    color: #eee !important;
+}
+
+#footer-s{
+    padding-bottom: 150px;
+}
+
+.direction{
+    
+    font-family: 'DM Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #FFFFFF!important;
+    line-height: 1.6em;
+
+}
+
+.map{
+ 
+    margin-top: 20px;
+    height: 300px;
+    width: 400px;
+
+}

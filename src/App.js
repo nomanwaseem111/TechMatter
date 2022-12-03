@@ -11,9 +11,9 @@ import About from './Components/About/About';
 import Contact from './Components/Contact.jsx/Contact';
 import Blog from './Components/Blog/Blog';
 import Navbar from './Components/Navbar/Navbar';
-import './index.css'
+import Footer from './Components/Footer/Footer';
 
-
+import './index.css';
 const App = () => {
   return (
     <div>
@@ -29,8 +29,12 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         </Routes>
+        <Footer/>
+
       </div>
+
     </Router>
+
     </div>
   )
 }
