@@ -1,9 +1,11 @@
 import React from 'react'
 import Banner from '../Banner.jsx/Banner'
 import HomeImg1 from '../Home/Homeimg1.jpg'
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 const Home = () => {
   return (
-    <div>
+    <>
       <Banner />
 
       <div className='parent2'>
@@ -142,7 +144,73 @@ const Home = () => {
 
 
 
-    </div>
+      <div>
+        <h2 className='p-6'>LATEST NEWS & ARTICLES</h2>
+        <div className='parent-6'>
+
+          <Card style={{ width: '20rem' }}>
+            <Card.Img variant="top" src="https://i0.wp.com/techmatterglobal.com/wp-content/uploads/2022/10/An-insight-into-Healthcare-Revenue-Cycle-Management-TechMatter-global.jpg?resize=400%2C250&ssl=1" />
+            <Card.Body>
+              <Card.Text className='card-text'>
+                An insight into Healthcare Revenue Cycle Management
+              </Card.Text>
+              <a href='https://techmatterglobal.com/an-insight-into-healthcare-revenue-cycle-management/' className="read-more" target="_blank">Read More</a>
+            </Card.Body>
+          </Card>
+
+
+          <Card style={{ width: '20rem' }}>
+            <Card.Img variant="top" src="https://i0.wp.com/techmatterglobal.com/wp-content/uploads/2022/10/Introduction-to-Remote-Management-TechMatter-Global-1.jpg?resize=400%2C250&ssl=1" />
+            <Card.Body>
+              <Card.Text className='card-text'>
+                Introduction to Remote Management
+              </Card.Text>
+              <a href='https://techmatterglobal.com/introduction-to-remote-management/' className="read-more" target="_blank">Read More</a>
+            </Card.Body>
+          </Card>
+
+
+
+          <Card style={{ width: '20rem' }}>
+            <Card.Img variant="top" src="https://i0.wp.com/techmatterglobal.com/wp-content/uploads/2022/10/8-Free-Remote-Desktop-Software-in-2022-TechMatter-Global.jpg?resize=400%2C250&ssl=1" />
+            <Card.Body>
+              <Card.Text className='card-text'>
+                8 Free Remote Desktop Softwares in 2022
+              </Card.Text>
+              <a href='https://techmatterglobal.com/8-free-remote-desktop-softwares-in-2022/' className="read-more" target="_blank">Read More</a>
+            </Card.Body>
+          </Card>
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+
+      <hr className='line'/>
+
+      <div >
+      <div className='parent-7'>
+        <div>
+          <h3 className='review'>Review Us</h3>
+          <span className='feed'>Your Feedback is important for Us</span>
+        </div>
+        <div className='adjust'>
+           <div>
+          <span className='review-on'>REVIEWED ON</span><span><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
+          </div>
+          <div>
+          <a href="https://clutch.co/profile/tech-matter-global?utm_source=widget&utm_medium=2&utm_campaign=widget&utm_content=logo" target="_blank" className='clutch'>Clutch</a> <span className='review_us'>Review us</span>
+          </div>
+        </div>
+        </div>
+      </div>
+
+    </>
   )
 }
 
