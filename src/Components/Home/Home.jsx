@@ -85,62 +85,70 @@ const Home = () => {
 
 
 
-      <div>
-        <span className='closer4'>TECH MATTER PROVIDING YOU BEST SERVICES</span>
-        <div className='parent-5'>
-          <div className='child-5'>
-            <span><i class="fa-solid fa-desktop"></i></span><br /><br />
+     <div>
+     <span className='closer4'>TECH MATTER PROVIDING YOU BEST SERVICES</span>
+       <div className='parent-5'>
+         <div className='child-5'>
+         <span><i class="fa-solid fa-desktop"></i></span><br /><br />
             <span className='c-5'>Managed IT Services</span>
             <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
             <button className='b-5'>Explore</button>
-          </div>
-          <div className='child-5'>
-            <span><i class="fa-brands fa-windows"></i></span><br /><br />
-            <span className='c-5'>Software Development</span>
-            <p className='p-5'>We deliver custom software solutions for your unique requirements; our software is usually more in-depth and tailored to a client’s specific needs.</p>
-            <button className='b-5'>Explore</button>
+         </div>
 
-          </div>
-          <div className='child-5'>
-            <span><i class="fa-solid fa-arrows-spin"></i></span><br /><br />
-            <span className='c-5'>Revenue Cycle Management</span>
-            <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
-            <button className='b-5'>Explore</button>
-
-          </div>
-        </div>
-
-
-
-
-
-
-
-
-        <div className='parent-5'>
-          <div className='child-5'>
-            <span><i class="fa-solid fa-desktop"></i></span><br /><br />
+         <div className='child-5'>
+         <span><i class="fa-solid fa-desktop"></i></span><br /><br />
             <span className='c-5'>Managed IT Services</span>
             <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
             <button className='b-5'>Explore</button>
-          </div>
-          <div className='child-5'>
-            <span><i class="fa-brands fa-windows"></i></span><br /><br />
-            <span className='c-5'>Software Development</span>
-            <p className='p-5'>We deliver custom software solutions for your unique requirements; our software is usually more in-depth and tailored to a client’s specific needs.</p>
-            <button className='b-5'>Explore</button>
+         </div>
 
-          </div>
-          <div className='child-5'>
-            <span><i class="fa-solid fa-arrows-spin"></i></span><br /><br />
-            <span className='c-5'>Revenue Cycle Management</span>
+
+         <div className='child-5'>
+         <span><i class="fa-solid fa-desktop"></i></span><br /><br />
+            <span className='c-5'>Managed IT Services</span>
             <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
             <button className='b-5'>Explore</button>
+         </div>
 
-          </div>
-        </div>
 
-      </div>
+
+         <div className='child-5'>
+         <span><i class="fa-solid fa-desktop"></i></span><br /><br />
+            <span className='c-5'>Managed IT Services</span>
+            <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
+            <button className='b-5'>Explore</button>
+         </div>
+
+
+
+         <div className='child-5'>
+         <span><i class="fa-solid fa-desktop"></i></span><br /><br />
+            <span className='c-5'>Managed IT Services</span>
+            <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
+            <button className='b-5'>Explore</button>
+         </div>
+
+
+
+         <div className='child-5'>
+         <span><i class="fa-solid fa-desktop"></i></span><br /><br />
+            <span className='c-5'>Managed IT Services</span>
+            <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
+            <button className='b-5'>Explore</button>
+         </div>
+       </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -148,7 +156,7 @@ const Home = () => {
         <h2 className='p-6'>LATEST NEWS & ARTICLES</h2>
         <div className='parent-6'>
 
-          <Card style={{ width: '20rem' }}>
+          <Card className="card-folder" style={{ width: '20rem' }}>
             <Card.Img variant="top" src="https://i0.wp.com/techmatterglobal.com/wp-content/uploads/2022/10/An-insight-into-Healthcare-Revenue-Cycle-Management-TechMatter-global.jpg?resize=400%2C250&ssl=1" />
             <Card.Body>
               <Card.Text className='card-text'>
@@ -159,7 +167,7 @@ const Home = () => {
           </Card>
 
 
-          <Card style={{ width: '20rem' }}>
+          <Card className="card-folder" style={{ width: '20rem' }}>
             <Card.Img variant="top" src="https://i0.wp.com/techmatterglobal.com/wp-content/uploads/2022/10/Introduction-to-Remote-Management-TechMatter-Global-1.jpg?resize=400%2C250&ssl=1" />
             <Card.Body>
               <Card.Text className='card-text'>
@@ -171,7 +179,7 @@ const Home = () => {
 
 
 
-          <Card style={{ width: '20rem' }}>
+          <Card className="card-folder" style={{ width: '20rem' }}>
             <Card.Img variant="top" src="https://i0.wp.com/techmatterglobal.com/wp-content/uploads/2022/10/8-Free-Remote-Desktop-Software-in-2022-TechMatter-Global.jpg?resize=400%2C250&ssl=1" />
             <Card.Body>
               <Card.Text className='card-text'>
