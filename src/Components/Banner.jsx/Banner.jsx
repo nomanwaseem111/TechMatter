@@ -11,35 +11,47 @@ const Banner = () => {
          <Carousel fade>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block"
           src={Banner1}
           alt="First slide"
         />
         <Carousel.Caption>
+           <div className='banner-background'>
+           <div className='inner-div'>
           <h3 className='heading1'>REVENUE CYCLE MANAGEMENT</h3>
-         
+          </div>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block"
           src={Banner2}
           alt="Second slide"
         />
 
         <Carousel.Caption>
+        <div className='banner-background'>
+        <div className='inner-div'>
         <h3 className='heading2'>MANAGED IT SERVICES</h3>
+        </div>
+        </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block"
           src={Banner3}
           alt="Third slide"
+          
         />
 
         <Carousel.Caption>
+        <div className='banner-background'>
+        <div className='inner-div'>
         <h3 className='heading3'>SOFTWARE DEVELOPMENT</h3>
+        </div>
+        </div>
         
         </Carousel.Caption>
       </Carousel.Item>

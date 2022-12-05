@@ -96,15 +96,15 @@ const Home = () => {
 
 
          <div className='child-5'>
-         <span><i class="fa-solid fa-desktop"></i></span><br /><br />
-            <span className='c-5'>Managed IT Services</span>
+         <span><i class="fa-brands fa-windows"></i></span><br /><br />
+            <span className='c-5'>Software Development</span>
             <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
             <button className='b-5'>Explore</button>
          </div>
 
 
          <div className='child-5'>
-         <span><i class="fa-solid fa-desktop"></i></span><br /><br />
+         <span><i class="fa-solid fa-arrows-spin"></i></span><br /><br />
             <span className='c-5'>Managed IT Services</span>
             <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
             <button className='b-5'>Explore</button>
@@ -120,7 +120,7 @@ const Home = () => {
          </div>
 
          <div className='child-5'>
-         <span><i class="fa-solid fa-desktop"></i></span><br /><br />
+         <span><i class="fa-brands fa-windows"></i></span><br /><br />
             <span className='c-5'>Managed IT Services</span>
             <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
             <button className='b-5'>Explore</button>
@@ -128,7 +128,7 @@ const Home = () => {
 
 
          <div className='child-5'>
-         <span><i class="fa-solid fa-desktop"></i></span><br /><br />
+         <span><i class="fa-solid fa-arrows-spin"></i></span><br /><br />
             <span className='c-5'>Managed IT Services</span>
             <p className='p-5'>When you partner with a managed IT provider, you can rest assured that your company’s network will be monitored closely and maintained regularly.</p>
             <button className='b-5'>Explore</button>
@@ -209,7 +209,7 @@ const Home = () => {
         </div>
         <div className='adjust'>
            <div>
-          <span className='review-on'>REVIEWED ON</span><span><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
+          <span className='review-on'>REVIEWED ON</span><span><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
           </div>
           <div>
           <a href="https://clutch.co/profile/tech-matter-global?utm_source=widget&utm_medium=2&utm_campaign=widget&utm_content=logo" target="_blank" className='clutch'>Clutch</a> <span className='review_us'>Review us</span>
