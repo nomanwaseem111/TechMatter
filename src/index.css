@@ -937,6 +937,12 @@ h4 {
 }
 
 @media screen and (max-width:393px) {
+    
+    *{
+        overflow-x: hidden;
+    }
+    
+    
     #logo {
         width: 100px;
         margin-left: 10px;
