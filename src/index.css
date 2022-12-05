@@ -943,7 +943,9 @@ h4 {
 
     }
 
-
+    .d-block{
+        width: 100%;
+    }
 
 
     .child-1 {
@@ -1437,6 +1439,3 @@ li {
 }
 
 
-@media screen and (max-width:360px){
-    
-}
