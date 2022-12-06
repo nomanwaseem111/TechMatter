@@ -41,6 +41,7 @@ li {
 .banner-background{
     background-color: #000000;
     opacity: 0.6;
+    height: auto;
 }
 
 .inner-div{
@@ -342,7 +343,7 @@ h4 {
     padding-left: 100px;
 }
 
-.adjust {
+.seven-2 {
     flex-direction: column;
     padding-left: 100px;
 }
@@ -951,6 +952,7 @@ h4 {
 
     .d-block{
         width: 100%;
+        margin: auto;
     }
 
 
@@ -988,11 +990,15 @@ h4 {
         font-size: 30px;
         font-weight: bold;
         width: 100%;
-        margin-bottom: 110px;
+        padding-top: 15px;
+               
 
+ }
 
-
-    }
+  .banner-background{
+    height: 100px;
+    margin-bottom: 100px;
+  }
 
 
     #two {
@@ -1126,7 +1132,7 @@ h4 {
     .fa-desktop,
     .fa-windows,
     .fa-arrows-spin {
-        font-size: 10px;
+        font-size: 50px;
         color: #007eda;
     }
 
@@ -1208,13 +1214,13 @@ h4 {
 
 .parent-7 {
     display: flex;
-    align-items: center;
-    padding-top: 50px;
-    padding-left: 30px;
+    justify-content: space-evenly;
+    padding: 50px 30px;
 }
 
-.adjust {
+.seven-2 {
     flex-direction: column;
+    
 }
 
 .review {
@@ -1247,7 +1253,7 @@ h4 {
 
 .fa-star {
     color: orangered;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .clutch {
@@ -1265,6 +1271,7 @@ h4 {
     background-color: #000000;
     margin-top: 100px;
     padding: 100px 0px;
+    height: auto;
 }
 
 .contact {
